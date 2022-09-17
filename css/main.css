@@ -38,7 +38,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: red; }
+  background-color: grey; }
 
 .wrapper {
   border: 1px solid;
@@ -115,7 +115,6 @@
   .wrapper .main {
     border: 1px solid;
     width: 1280px;
-    height: 524.55px;
     min-height: 100px;
     margin: 0 auto;
     background-color: #fefcf7;
@@ -131,7 +130,7 @@
       width: 1111px;
       height: 398.55px;
       border: 1px solid;
-      margin: 0 auto;
+      margin: 0;
       background-color: transparent;
       position: absolute;
       display: flex;
@@ -164,5 +163,69 @@
           line-height: 26px;
           text-align: center;
           background-color: transparent; }
+    .wrapper .main .choose-us {
+      width: 1280px;
+      height: 557px;
+      border: 1px solid;
+      border-radius: 10px;
+      margin: 515px auto 0 auto;
+      background-color: #2C343E; }
+      .wrapper .main .choose-us h2 {
+        height: 48px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 100px;
+        color: #fefcf7;
+        background-color: transparent; }
+      .wrapper .main .choose-us .text1 {
+        width: 540px;
+        height: 80px;
+        opacity: 80%;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #fefcf7;
+        background-color: #2C343E;
+        margin: 32px 370px 0 370px; }
+      .wrapper .main .choose-us .card {
+        width: 1110px;
+        height: 382px;
+        border: 1px solid black;
+        margin: 86px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent; }
+        .wrapper .main .choose-us .card .box {
+          width: 350px;
+          height: 382px;
+          border-radius: 8px;
+          background-color: #0E8784; }
+          .wrapper .main .choose-us .card .box img {
+            margin: 72px 143px 56px 136px;
+            background-color: transparent; }
+          .wrapper .main .choose-us .card .box h3 {
+            height: 32px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: #0E8784; }
+          .wrapper .main .choose-us .card .box .text2 {
+            height: 78px;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #FEFCF7;
+            margin: 24px 48px 48px 47px;
+            background-color: #0E8784; }
 
 /*# sourceMappingURL=main.css.map */
