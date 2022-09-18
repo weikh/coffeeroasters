@@ -46,7 +46,6 @@
   margin: 0 auto;
   background-color: #fefcf7; }
   .wrapper .header {
-    border: 1px solid;
     width: 1280px;
     margin: 0 auto;
     background-color: #fefcf7;
@@ -113,10 +112,9 @@
         font-size: 18px;
         line-height: 25px; }
   .wrapper .main {
-    border: 1px solid;
     width: 1280px;
     min-height: 100px;
-    margin: 0 auto;
+    margin: 0 auto 350px auto;
     background-color: #fefcf7;
     position: relative; }
     .wrapper .main .collection {
@@ -129,7 +127,6 @@
     .wrapper .main .section {
       width: 1111px;
       height: 398.55px;
-      border: 1px solid;
       margin: 0;
       background-color: transparent;
       position: absolute;
@@ -166,7 +163,6 @@
     .wrapper .main .choose-us {
       width: 1280px;
       height: 557px;
-      border: 1px solid;
       border-radius: 10px;
       margin: 515px auto 0 auto;
       background-color: #2C343E; }
@@ -195,7 +191,6 @@
       .wrapper .main .choose-us .card {
         width: 1110px;
         height: 382px;
-        border: 1px solid black;
         margin: 86px auto 0 auto;
         display: flex;
         justify-content: space-between;
@@ -227,5 +222,94 @@
             color: #FEFCF7;
             margin: 24px 48px 48px 47px;
             background-color: #0E8784; }
+  .wrapper .navbar {
+    width: 1280px;
+    min-height: 800px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: #fefcf7; }
+    .wrapper .navbar .works {
+      width: 1045px;
+      height: 565px;
+      border: 1px solid;
+      margin-left: 85px;
+      margin-bottom: 64px;
+      background-color: #fefcf7; }
+      .wrapper .navbar .works h3 {
+        height: 32px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        background-color: #fefcf7;
+        margin-bottom: 85px; }
+      .wrapper .navbar .works .line {
+        width: 780px;
+        height: 1px;
+        border: 2px solid #FDD6BA;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .wrapper .navbar .works .line span {
+          width: 31px;
+          height: 31px;
+          border: 2px solid #0E8784;
+          border-radius: 50%;
+          display: inline-block;
+          background-color: #fefcf7; }
+      .wrapper .navbar .works .item-list {
+        width: 1040px;
+        margin-top: 82px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #fefcf7; }
+        .wrapper .navbar .works .item-list .cards {
+          width: 285px;
+          height: 355px;
+          background-color: #fefcf7; }
+          .wrapper .navbar .works .item-list .cards .number {
+            width: 90px;
+            height: 72px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+            background-color: #fefcf7; }
+          .wrapper .navbar .works .item-list .cards .title {
+            width: 255px;
+            height: 73px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+            background-color: #fefcf7;
+            margin-top: 38px; }
+          .wrapper .navbar .works .item-list .cards .select {
+            width: 285px;
+            height: 130px;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            margin-top: 42px;
+            background-color: #fefcf7; }
+    .wrapper .navbar .plan {
+      width: 217px;
+      height: 56px;
+      margin-left: 85px;
+      padding: 15px 31px 16px 31px;
+      background-color: #66D2CF;
+      border-radius: 6px;
+      font-family: 'Fraunces';
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      text-decoration: none;
+      color: #fefcf7; }
 
 /*# sourceMappingURL=main.css.map */
