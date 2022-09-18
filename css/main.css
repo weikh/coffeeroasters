@@ -75,6 +75,17 @@
           color: #83888f;
           cursor: pointer;
           background-color: #fefcf7; }
+          .wrapper .header .box ul li a {
+            list-style: none;
+            font-family: 'Barlow';
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.92px;
+            color: #83888f;
+            cursor: pointer;
+            background-color: #fefcf7;
+            text-decoration: none; }
     .wrapper .header .header-bacground {
       width: 1280px;
       height: 600px;
@@ -165,7 +176,8 @@
       height: 557px;
       border-radius: 10px;
       margin: 515px auto 0 auto;
-      background-color: #2C343E; }
+      background-color: #2C343E;
+      padding-top: 100px; }
       .wrapper .main .choose-us h2 {
         height: 48px;
         font-family: 'Fraunces';
@@ -173,7 +185,6 @@
         font-size: 40px;
         line-height: 48px;
         text-align: center;
-        margin-top: 100px;
         color: #fefcf7;
         background-color: transparent; }
       .wrapper .main .choose-us .text1 {
@@ -325,10 +336,22 @@
       justify-content: space-between;
       background-color: #2C343E; }
       .wrapper .footer ul li {
+        font-family: 'Barlow';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.92px;
         background-color: #2C343E;
-        color: #fefcf7; }
+        color: #83888F; }
         .wrapper .footer ul li a {
-          background-color: transparent; }
+          background-color: transparent;
+          font-family: 'Barlow';
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+          letter-spacing: 0.92px;
+          color: #83888F;
+          text-decoration: none; }
           .wrapper .footer ul li a img {
             background-color: transparent; }
 
