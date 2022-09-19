@@ -194,5 +194,38 @@
         border-radius: 10px;
         background-color: #2C343E;
         margin: 258px auto 0 auto;
+        display: flex;
+        .quality{
+            width: 540px;
+            height: 210px;
+            border: 1px solid white;
+            background-color: transparent;
+            margin: 86px auto 178px 85px;
+            h2{
+                width: 517px;
+                height: 48px;
+                font-family: 'Fraunces';
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #fefcf7;
+                background-color: transparent;
+            }
+            p{
+                width: 540px;
+                height: 130px;
+                opacity: 80%;
+                font-family: 'Barlow';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #fefcf7;
+                background-color: transparent;
+                margin-top: 32px;
+            }
+        }
+        img{
+            border-radius: 28px;
+        }
     }
 }
